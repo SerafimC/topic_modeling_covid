@@ -18,13 +18,17 @@ def display_topics(model, feature_names, no_top_words):
       print('Topic ' + str(i) + ':')    
       print(tp[1])
 
-
 # LDA can only use raw term counts for LDA because it is a probabilistic graphical model
+print('Creating bag of words...')
 tf_vectorizer = CountVectorizer()
 tf = tf_vectorizer.fit_transform(df)
 tf_feature_names = tf_vectorizer.get_feature_names()
+print('Done!')
 
 # Creating the LDA model
-lda = LatentDirichletAllocation(n_components=5 , learning_method='online', doc_topic_prior=0.01, topic_word_prior=0.005 ,random_state=0, batch_size=1000 ).fit(tf)
+print('Training model...')
+lda = LatentDirichletAllocation(n_components=30 , learning_method='online', doc_topic_prior=0.0005, topic_word_prior=0.0005 ,random_state=0, batch_size=1000 ).fit(tf)
+print('Done!')
 
+print('')
 display_topics(lda, tf_feature_names, 10)
