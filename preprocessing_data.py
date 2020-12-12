@@ -51,11 +51,6 @@ print("Done!")
 # df = df.apply(lambda row: ' '.join([stemmer.stem(word) for word in row.split()]))
 # print('Done!')
 
-# Remove stopwords
-print("Removing stopwords...")
-df = df.apply(lambda row: ' '.join([remove_stopword(word,stopwords) for word in row.split()]))
-print("Done!")
-
 #Adding bigrams
 print("Adding bigrams...")
 dtoken=[gensim.utils.simple_preprocess(d, deacc= True, min_len=3) for d in df] 
@@ -69,6 +64,11 @@ bdocs=[bigram[d] for d in dtoken]
 #         if '_' in word:
 #             df[i] += ' ' + word
 print('Done!')
+
+# Remove stopwords
+print("Removing stopwords...")
+bdocs = [[remove_stopword(word, stopwords) for word in doc] for doc in bdocs]
+print("Done!")
 
 # Remove pontuation
 print("Removing pontuation...")
