@@ -81,7 +81,7 @@ try:
     f = open('output.csv', 'x',encoding='utf-8')
 except:
     f = open('output.csv', 'w')
-    f.write("")
+    f.write("column1\n")
     f.close()
     f = open('output.csv', 'a',encoding='utf-8')
 
