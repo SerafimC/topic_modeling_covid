@@ -27,7 +27,7 @@ print('Done!')
 
 # Creating the LDA model
 print('Training model...')
-lda = LatentDirichletAllocation(n_components=30 , learning_method='online', doc_topic_prior=0.0005, topic_word_prior=0.00000005, learning_offset=70. ,random_state=0, batch_size=1000 ).fit(tf)
+lda = LatentDirichletAllocation(n_components=30 , learning_method='online', doc_topic_prior=0.0005, topic_word_prior=0.00000005, learning_offset=100. ,random_state=0, batch_size=1000 ).fit(tf)
 print('Done!')
 
 print('')
