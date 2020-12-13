@@ -1,17 +1,24 @@
 Topic 0:
 said covid people health case say province pandemic one coronavirus
-Topic 1:
+
+Topic 1: Police calls and pandemic in ottawa
 ottawa people said say covid community call also police pandemic
+
 Topic 2:
 href_https ship coronavirus passenger twitter_com cruise_ship twsrc_etfw festival show cruise
-Topic 3:
+
+Topic 3: EUA elections and coronavirus
 biden sanders said democrats state democratic campaign voter joe_biden democratic_presidential
+
 Topic 4:
 zoo said race athlete china games interpreter chinese coronavirus sign_language
+
 Topic 5:
 california state cent hanks travel_insurance san_francisco new_york coronavirus said firestone
+
 Topic 6:
 mccully bolsonaro said brazil china coronavirus friend kierstead people lisa_mccully
+
 Topic 7:
 calver alton_gas larkin sipekne_katik winnipeg_fire chsld_lafleche edwards francoeur ffaw marie_calver
 Topic 8:
@@ -20,6 +27,8 @@ Topic 9:
 dalla_bona peru hostel bona anthony_dalla lima repatriation_flight peruvian cusco lockdown
 Topic 10:
 burke trip said italy expos pin salimian strupat emsb mrsa
+
+
 Topic 11:
 china screenshot wuhan chinese gsa feng gilchrist friday_attributing said initial_undercount
 Topic 12:
